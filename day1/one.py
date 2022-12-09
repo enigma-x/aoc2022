@@ -13,7 +13,6 @@ while a:
         else:
             elfs.append(calories)
             calories  = 0
-            elf_number += 1
 
     if not line:
         elfs.append(calories)
